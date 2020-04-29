@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #e9967a;
+    display: flex;
+    color: #a0522d;
+    width: 140vh;
+    height: 10vh;
+    margin-left: 200px;
+}
+
+header>h3{
+    width: 35%;
+}
+
+header>nav{
+    width: 65%;
+    background-color: #ff1493;
+    color: #dc143c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+header>nav>ol{
+    display: flex;
+}
+
+header>nav>ol>li{
+    width: 20%;
+    margin-top: 2.5%;
+    margin-left: 8%;
+}
+
+#fora{
+    display: flex;
+    width: 100vh;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+#fora>div{
+    width: 60%;
+}
+
+#fora>aside{
+    width: 40%;
+    margin-left: 20px;
+}
+
+#fora>div>article{
+
+}
+
+.centraliza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Array - Criação</title>
+</head>
+<body>
+    <script>
+        //         0  1  2
+        var arr = [10,20,30];
+      //  document.write("1ª Posição ",arr[0],"<br>");
+      //  document.write("2ª Posição ",arr[1],"<br>");
+      //  document.write("3ª Posição ",arr[2],"<br>");
+      //  document.write("4ª Posição ",arr[3],"<br>");
+
+        //Acessando Array através de repetição
+
+        for (var i = 0; i < 3; i++)
+        {
+            //document.write(i+1,"ª Posição ",arr[i],"<br>");
+            document.write(`${i+1}ª Posição ${arr[i]}<br>`);
+        }
+
+        //Adicionar um elemento no fim do array
+        
+        arr.push(40);
+
+        for (var i = 0; i < arr.length; i++)
+        {
+            //document.write(i+1,"ª Posição ",arr[i],"<br>");
+            document.write(`${i+1}ª Posição: ${arr[i]}<br>`);
+        }
+        
+        //Adicionar elementos no inicio do array
+
+        arr.unshift(5);
+
+        for (var i = 0; i < arr.length; i++)
+        {
+            //document.write(i+1,"ª Posição ",arr[i],"<br>");
+            document.write(`${i+1}ª Posição: ${arr[i]}<br>`);
+        }
+        
+        //Remover um elemento no fim do array
+        
+        arr.pop();
+
+        for (var i = 0; i < arr.length; i++)
+        {
+            //document.write(i+1,"ª Posição ",arr[i],"<br>");
+            document.write(`${i+1}ª Posição: ${arr[i]}<br>`);
+        }
+        
+        //Remover elementos no inicio do array
+
+        arr.shift();
+
+        for (var i = 0; i < arr.length; i++)
+        {
+            //document.write(i+1,"ª Posição ",arr[i],"<br>");
+            document.write(`${i+1}ª Posição: ${arr[i]}<br>`);
+        }
+
+
+    </script>
+</body>
+</html>
