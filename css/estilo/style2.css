@@ -1,0 +1,14 @@
+div{
+    height: 20vh;
+    width: 25%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+div:not(:target){
+    display: none;
+}

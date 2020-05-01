@@ -1,0 +1,36 @@
+body, #corpo>nav>form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+header{
+    height: 50px;
+    font-size: 2rem;
+}
+
+#corpo{
+    display: flex;
+}
+
+#corpo>nav>form>button{
+    margin-top: 30%;
+    margin-right: 30%;
+}
+
+button:hover{
+    /* font-size: 1rem; */
+    background-color: aquamarine;
+}
+
+.centraliza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escondido{
+    display: none;
+}

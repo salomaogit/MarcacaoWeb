@@ -1,0 +1,94 @@
+.circulo{
+    width: 5rem;
+    height: 5rem;
+    background-color: #ff7f50;
+    border-radius: 50%;
+}
+#animacao1:hover{
+    animation: muda-cor 5s  linear infinite;
+}
+
+@keyframes muda-cor{
+    0%{
+        background-color: #A52a2a;
+    }
+    100%{
+        background-color: #32cd32;
+    }
+}
+
+#animacao2{
+    position: relative;
+    animation: muda-pos 5s linear infinite;
+}
+
+@keyframes muda-pos{
+    from{
+        top:0;
+        left: 0;
+    }
+    25%{
+        top:0;
+        left: 10rem;
+    }
+    50%{
+        top:10rem;
+        left: 10rem;
+    }
+    75%{
+        top:10rem;
+        left: 0;
+    }
+    to{
+        top:0;
+        left: 0;
+    }
+}
+
+#animacao3{
+    border-radius: 0;
+    animation: transform 4s ease-out infinite;
+    margin-top: 20%;
+}
+
+@keyframes transform{
+    from{
+        border-top-left-radius: 50%;
+    }
+    35%{
+        border-top-right-radius: 40%;
+    }
+    70%{
+        border-bottom-left-radius: 50%;
+    }
+    to{
+        border-bottom-right-radius: 40%;
+    }
+}
+
+#animacao4{
+    width: 80%;
+    height: 35rem;
+    border-radius: 5%;
+    margin: auto;
+    animation: slide 10s alternate infinite;   
+    background-size: cover; 
+    background-color: transparent;
+}
+@keyframes slide{
+    from{
+        background-image: url("../img/natureza/8.jpg");
+    }
+    25%{
+        background-image: url("../img/natureza/10.jpg");
+    }
+    60%{
+        background-image: url("../img/natureza/6.jpg");
+    }
+    80%{
+        background-image: url("../img/natureza/4.jpg");
+    }
+    to{
+        background-image: url("../img/natureza/2.jpg");
+    }
+}

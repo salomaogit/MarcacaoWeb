@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/natureza/7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#primeiro{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/banner/b1.jpg);
+    background-size: cover;
+}
+
+#segundo{
+    height: 100vh;
+    background-color: rgba(81, 165, 78, 0.61);    
+}

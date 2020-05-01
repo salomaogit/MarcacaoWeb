@@ -1,0 +1,27 @@
+#div{
+    background-color: #babafa;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#div::before{
+    content: "alou";
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid blue;
+}
+
+#div::after{
+    content: "ensolarada";
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid blue;
+}
+
+#div::first-letter{
+    font-size: 2rem;
+    text-transform: uppercase;
+}

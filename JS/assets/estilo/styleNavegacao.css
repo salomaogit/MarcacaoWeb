@@ -1,0 +1,13 @@
+.escondido{
+    display: none;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#principal>li{
+   flex-grow: 1;
+}
